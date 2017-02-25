@@ -1,3 +1,20 @@
+document.getElementById('changeColor').addEventListener('click', function() {
+  // console.log('you clicked me')
+  var color = document.getElementById('textColor').value;
+  var body = document.getElementById('body');
+  body.style.color = color;
+  // console.log(body)
+
+});
+document.getElementById('hideEverything').addEventListener('click', function() {
+  // console.log('you clicked me')
+  var body = document.getElementById('body');
+  body.style.display = 'none';
+  // console.log(body)
+
+});
+
+
 function validateForm() {
   var name = document.getElementById('nameInput').value;
   var species = document.getElementById('speciesInput').value;
